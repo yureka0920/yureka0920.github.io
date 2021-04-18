@@ -3,6 +3,7 @@
    ========================================================================== */
 
 .masthead {
+  background:#30e3ca;
   position: relative;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
@@ -12,6 +13,7 @@
   z-index: 20;
 
   &__inner-wrap {
+    background:#30e3ca;
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
@@ -44,6 +46,7 @@
 }
 
 .site-title {
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
