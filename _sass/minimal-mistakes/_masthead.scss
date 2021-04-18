@@ -46,7 +46,7 @@
 }
 
 .site-title {
-  color: white;
+  background:#30e3ca;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,12 +62,16 @@
 }
 
 .masthead__menu {
+  background:#30e3ca;
   float: left;
   margin-left: 0;
   margin-right: 0;
   width: 100%;
   clear: both;
-
+  
+  #site-nav{
+    color:white;
+  }
   .site-nav {
     margin-left: 0;
 
